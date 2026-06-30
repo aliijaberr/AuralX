@@ -1532,3 +1532,58 @@ nav a:hover{
     pointer-events:none;
 
 }
+@media (max-width: 768px) {
+
+header{
+    flex-direction: column;
+    gap:20px;
+    padding:20px;
+}
+
+nav{
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero-image img{
+    width:80%;
+    margin:auto;
+}
+
+.features-grid{
+    grid-template-columns:1fr;
+}
+
+.specs{
+    flex-direction:column;
+}
+
+.gallery-grid{
+    grid-template-columns:1fr;
+}
+
+.showcase-container{
+    flex-direction:column;
+}
+
+.showcase-left,
+.showcase-right,
+.showcase-image{
+    width:100%;
+}
+
+footer{
+    text-align:center;
+}
+}
